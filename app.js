@@ -4,14 +4,14 @@ var boombox =document.getElementById('boombox')
 
 function playTune(num){
 
-  var tuneUrl = url + num + '.mp3'
+  var tuneUrl = url
   
     
   if(num  < 10){
-    tuneurl += '0'
+    tuneUrl += '0'
   }
   
-  tuneurl += num + '.mp3'
+  tuneUrl += num + '.mp3'
   
   console.log(tuneUrl)
   
